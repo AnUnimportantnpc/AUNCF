@@ -1,0 +1,23 @@
+#prints a selectable area using scrot and displaying in feh. It then puts it in the screenshots folder.  
+Print
+  scrot -s -e 'feh $f ~/Pictures/Screenshots/'
+
+# Open Firefox with Ctrl + win + F
+super + f
+    firefox
+
+# Open Thunderbird with Ctrl + win + T
+super + t
+    thunderbird
+
+super + s
+  steam
+
+super + l
+      lutris
+
+super + b
+    flatpack run com.bambulab.BambuStudio
+
+super + a 
+    com.google.AndroidStudio
